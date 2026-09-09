@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>iniciar sesion</title>
+	<link rel="stylesheet" href="../estilos/styles.css">
+</head>
+<body>
+    <header id="header"></header>
+    <section id="content">
+        <section id="login-section" class="caja-login">
+            <h2>
+                INICIAR SESIÓN
+            </h2>
+            <form id="form-login" onsubmit="validarLogin(event)">
+                <div class="grupo-input">
+                    <label for="email">CORREO (juanitogranPerez@gmail.com)</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="grupo-input">
+                    <label for="password">Contraseña (min: 9 caracteres):</label>
+                    <input type="password" id="password">
+                </div>
+                <p id="mensaje-error"></p>
+                <button type="submit" class="btn-login">ENTRAR A FISTSHOP</button>
+            </form>
+        </section>
+    </section>
+    <footer id="footer"></footer>
+</body>
+<script src="../scripts/scri.js"></script>
+</html>
