@@ -6,8 +6,8 @@ function inyectarHeader() {
                 </div>
                 <nav class="nav-links">
                     <a href="index.html">Inicio</a>
-                    <a href="/paginas/producto.html">Productos</a>
-                    <a href="/paginas/login.html">Iniciar Sesión</a>
+                    <a href="paginas/producto.html">Productos</a>
+                    <a href="paginas/login.html">Iniciar Sesión</a>
                     <a href="">Contacto</a>
                 </nav>
                 <div class="carrito-status">
