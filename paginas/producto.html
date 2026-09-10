@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos FistShop</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+<body>
+    <header id="header"></header>
+
+    <section id="content">
+        <h2>CATÁLOGO DE PRODUCTOS</h2>
+        <div class="catalogo-grid">
+            <div class="producto-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLJzIt1LOfPhfz5faEaGBU3ZrKaxLHii2FVtQszyEvRg&s=10"
+                     alt="Proteína"
+                     onclick="mostrarFicha('Proteína Whey 1kg', 'Proteína de suero de alta pureza. 25g de proteína por porción, cero azúcar y rápida absorción. Sabor chocolate.')">
+                <h3>Proteína Whey 1kg</h3>
+                <p class="precio">$29.990</p>
+            </div>
+
+            <div class="producto-card">
+                <img src="https://www.kfit.cl/cdn/shop/files/f6c15c06-4d84-4419-9e40-e2592d293572.jpg?v=1763633117"
+                     alt="Mancuernas"
+                     onclick="mostrarFicha('Set de Mancuernas Ajustables', 'Par de mancuernas modulares. Peso ajustable desde 2.5kg hasta 10kg por mancuerna. Ergonómicas.')">
+                <h3>Set de Mancuernas</h3>
+                <p class="precio">$45.000</p>
+            </div>
+
+            <div class="producto-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW81zF-IgVCYs1WnXr8s95uMjuJaz_A8cxm0KIZbwt_A&s=10"
+                     alt="Cinturón"
+                     onclick="mostrarFicha('Cinturón Powerlifting', 'Cinturón de cuero genuino de 10mm de grosor para levantamiento pesado. Máxima protección lumbar.')">
+                <h3>Cinturón Power</h3>
+                <p class="precio">$35.000</p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer"></footer>
+</body>
+<script src="../scripts/scri.js"></script>
+</html>

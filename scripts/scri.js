@@ -5,10 +5,10 @@ function inyectarHeader() {
                     <a href="index.html"><h1>FIST<span>SHOP</span></h1></a>
                 </div>
                 <nav class="nav-links">
-                    <a href="../index.html">Inicio</a>
-                    <a href="productos.html">Productos</a>
-                    <a href="paginas/login.html">Iniciar Sesión</a>
-                    <a href="contacto.html">Contacto</a>
+                    <a href="index.html">Inicio</a>
+                    <a href="/paginas/producto.html">Productos</a>
+                    <a href="/paginas/login.html">Iniciar Sesión</a>
+                    <a href="">Contacto</a>
                 </nav>
                 <div class="carrito-status">
                     <span>🛒 Carrito (0)</span>
@@ -72,4 +72,8 @@ function validarLogin(event) {
   document.getElementById("password").value = "";
 
   window.location.href = "../index.html";
+}
+
+function mostrarFicha(nombreProducto, descripcion) {
+    alert("FICHA TÉCNICA: " + nombreProducto + "\n\n" + descripcion);
 }

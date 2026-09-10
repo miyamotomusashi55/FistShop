@@ -246,6 +246,54 @@ footer{
     color: #ff4500;
 }
 
+.catalogo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.producto-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #333;
+    transition: 0.3s ease;
+}
+
+.producto-card:hover {
+    border-color: #ff4500;
+}
+
+.producto-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.producto-card img:hover {
+    transform: scale(1.04);
+}
+
+.producto-card h3 {
+    color: #ffffff;
+    margin: 15px 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.producto-card .precio {
+    color: #ff4500;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
 @media (max-width: 600px) {
     .header-container {
         flex-direction: column;
